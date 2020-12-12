@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+  <meta name="viewport" content="width-device-width", intital-scale=1">
+ 
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+
+      <li class="nav-item active">
+        <%= link_to 'Home', home_about_path ,class:"nav-link" %>
+      </li>
+
+      <li class="nav-item active">
+        <%= link_to 'SLA Calc',  slacal_index_path ,class:"nav-link" %>
+      </li>
+
+      <li class="nav-item active">
+        <%= link_to 'Index', home_index_path ,class:"nav-link" %>
+      </li>
+
+      <li class="nav-item active">
+        <%= link_to 'Machine type', machinetype_index_path ,class:"nav-link" %>
+      </li>
+
+      <li class="nav-item active">
+        <%= link_to 'Random Questions', qanas_path ,class:"nav-link" %>
+      </li>
+
+      <li class="nav-item active">
+        <%= link_to 'Interview Questions',  interview_index_path ,class:"nav-link" %>
+     </li>
+
+      <li class="nav-item active">
+        <%= link_to 'Grokking', grokkings_path ,class:"nav-link" %>
+      </li>
+ 
+      <li class="nav-item active">
+        <%= link_to 'CPU Core', getcpu_path ,class:"nav-link" %>
+      </li>
+
+  
+  
+   
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+
+  </div>
+</nav>
